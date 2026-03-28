@@ -1,0 +1,18 @@
+Extract actionable tasks from the following meeting transcript. For each task identified, determine:
+1. Task description - what needs to be done
+2. Owner - who is responsible
+3. Deadline - when it needs to be completed (format as YYYY-MM-DD)
+4. Priority - High, Medium, or Low based on urgency
+
+Return ONLY a JSON array in this format:
+[
+  {
+    "task": "...",
+    "owner": "...",
+    "deadline": "...",
+    "priority": "..."
+  }
+]
+
+Meeting Transcript:
+{transcript}

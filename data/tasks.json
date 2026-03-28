@@ -1,0 +1,37 @@
+[
+  {
+    "task": "Finalize Q1 strategy",
+    "owner": "Alice",
+    "deadline": "2026-03-30",
+    "priority": "High",
+    "status": "Pending"
+  },
+  {
+    "task": "Complete API integration",
+    "owner": "Bob",
+    "deadline": "2026-03-25",
+    "priority": "High",
+    "status": "Pending"
+  },
+  {
+    "task": "Review design mockups",
+    "owner": "Charlie",
+    "deadline": "2026-04-05",
+    "priority": "Medium",
+    "status": "Pending"
+  },
+  {
+    "task": "Update documentation",
+    "owner": "Diana",
+    "deadline": "Not specified",
+    "priority": "Medium",
+    "status": "Pending"
+  },
+  {
+    "task": "Client presentation prep",
+    "owner": "Eve",
+    "deadline": "2026-03-28",
+    "priority": "High",
+    "status": "Delayed"
+  }
+]

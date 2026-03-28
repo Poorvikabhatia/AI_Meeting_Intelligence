@@ -1,0 +1,9 @@
+Please provide a brief explanation of the following meeting:
+
+{meeting_summary}
+
+Include:
+1. Key decisions made
+2. Main topics discussed
+3. Important action items
+4. Next steps

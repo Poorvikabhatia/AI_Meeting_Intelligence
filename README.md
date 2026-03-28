@@ -62,22 +62,45 @@ Dashboard & Insights
 
 ## 🚀 How to Run Locally
 
-1. Clone the repository  
-git clone https://github.com/Poorvikabhatia/AI-Meeting-Intelligence.git  
-cd AI-Meeting-Intelligence  
+1. Clone the repository
+   ```bash
+  git clone https://github.com/Poorvikabhatia/AI-Meeting-Intelligence.git  
+  ```
 
-2. Create a virtual environment  
-python -m venv venv  
-venv\Scripts\activate  
+2. Navigate to the project folder
+   ```bash
+   cd AI-Meeting-Intelligence
+   ```
 
-3. Install dependencies  
-pip install -r requirements.txt  
+3. Create a virtual environment
+   ```bash
+   python -m venv venv
+   ```
 
-4. Create a .env file and add your API key  
-GROQ_API_KEY=your_api_key_here  
+4. Activate the virtual environment
+   ```bash
+   venv\Scripts\activate
+   ```
 
-5. Run the application  
-streamlit run app.py  
+5. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+7. Create a .env file and add your API key
+   ```bash
+   GROQ_API_KEY=your_api_key_here
+   ```
+
+9. Run the application
+   ```bash
+   streamlit run app.py
+   ```
+
+10. Open in browser
+    ```bash
+    http://localhost:8501
+    ```   
 
 ---
 

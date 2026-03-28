@@ -1,153 +1,108 @@
-# 📚 Documentation Index
+# 🧠 AI Meeting Intelligence System
 
-## Quick Navigation
+## 📌 Overview
+AI Meeting Intelligence System is an AI-powered application that converts unstructured meeting conversations into clear, actionable tasks.
 
-### Start Here
-- **UI_TRANSFORMATION_SUMMARY.md** - Overview & next steps (5 min read)
-
-### Complete Documentation
-- **UI_MODERNIZATION_GUIDE.md** - Full reference guide (20 min read)
-- **COMPONENT_QUICK_REFERENCE.md** - Quick lookup sheet
-- **IMPLEMENTATION_EXAMPLES.md** - Code samples & templates (10 min read)
+It automatically extracts tasks, identifies owners, assigns priorities, and helps teams track progress — improving productivity and ensuring no task is missed.
 
 ---
 
-## What's Inside Each File?
+## 🎯 Problem Statement
+In most organizations:
+- Meetings generate multiple tasks and decisions
+- Tasks are often not properly documented
+- Lack of ownership leads to missed deadlines
+- No structured system exists for tracking tasks
 
-### UI_TRANSFORMATION_SUMMARY.md
-Best for: Getting started, overview, next steps
-- Before/after comparison
-- Design system overview
-- Quick start template
-- Best practices
-- Troubleshooting
-
-Read time: 5-10 minutes
+This results in confusion, inefficiency, and reduced productivity.
 
 ---
 
-### UI_MODERNIZATION_GUIDE.md
-Best for: Understanding the complete system
-- Detailed color palette
-- All CSS variables
-- Complete component list
-- Helper functions documentation
-- Theme customization
-- Troubleshooting guide
-
-Read time: 20 minutes
+## 💡 Proposed Solution
+This system uses AI to transform meeting conversations into structured workflows by:
+- Extracting all actionable tasks
+- Identifying task owners
+- Detecting deadlines
+- Assigning priorities
+- Providing a centralized dashboard for tracking
 
 ---
 
-### COMPONENT_QUICK_REFERENCE.md
-Best for: Quick lookups while coding
-- Color codes in table format
-- Quick component usage
-- CSS classes reference
-- Layout examples
-- Common patterns
-- Performance tips
-
-Read time: 2-3 minutes per lookup
+## ⚙️ Key Features
+- AI-based task extraction from natural language  
+- Automatic detection of owner and deadline  
+- Task Manager with status tracking  
+- Dashboard with real-time insights  
+- Audit logs for transparency and traceability  
+- Clean, interactive, and user-friendly interface  
 
 ---
 
-### IMPLEMENTATION_EXAMPLES.md
-Best for: Copy-paste starting points
-- 7 complete examples
-- Basic Dashboard Layout
-- Task Filtering Dashboard
-- Analytics Dashboard
-- Alerts & Notifications
-- Data Tables with Badges
-- Custom Action Cards
-- Settings Pages
+## 🧠 System Architecture
 
-Read time: 2-5 minutes per example
-
----
-
-## How to Get Started
-
-### Step 1: Read Summary (5 min)
-Open UI_TRANSFORMATION_SUMMARY.md
-- Understand what changed
-- See design overview
-- Review quick start template
-
-### Step 2: Bookmark Quick Reference (1 min)
-Open COMPONENT_QUICK_REFERENCE.md
-- Keep handy while coding
-- Color codes table
-- Component usage cheat sheet
-
-### Step 3: Review an Example (5 min)
-Open IMPLEMENTATION_EXAMPLES.md
-- Pick Example 1 (Basic Dashboard)
-- See complete working code
-
-### Step 4: Build Your First Page (15 min)
-Using your app.py:
-- Copy structure from Example 1
-- Use helper functions
-- Customize for your data
-
-### Step 5: Run and Test (10 min)
-streamlit run app.py
-- View in browser
-- Test on mobile
-- Use DevTools to inspect
+Meeting Transcript  
+↓  
+AI Model (LLM via Groq)  
+↓  
+Task Extraction Engine  
+↓  
+Task Manager  
+↓  
+Dashboard & Insights  
 
 ---
 
-## What Was Changed
-
-### Added to app.py:
-1. MODERN_CSS - Complete light theme CSS variable
-2. render_priority_badge() - Color-coded priority badges
-3. render_status_badge() - Color-coded status badges
-4. create_task_card() - Beautiful task card display
-5. create_metric_card() - KPI metric displays
-6. create_info_box() - Styled alert boxes
-
-### Replaced:
-- Old dark theme CSS (81 lines) replaced with modern light theme
-
-### Preserved:
-- All original agent code and functionality
-- All data processing logic
-- All existing features
+## 🛠 Tech Stack
+- Python  
+- Streamlit  
+- Groq API (LLM)  
+- JSON (for data storage)  
 
 ---
 
-## Your New Dashboard Features
+## 🚀 How to Run Locally
 
-✓ Modern light theme (white cards, dark text)
-✓ Professional SaaS design aesthetic
-✓ Excellent readability and contrast
-✓ Color-coded priorities and statuses
-✓ Smooth animations and hover effects
-✓ Responsive mobile design
-✓ Easy-to-use helper functions
-✓ Complete documentation
-✓ 7 implementation examples
-✓ Production-ready code
+1. Clone the repository  
+git clone https://github.com/Poorvikabhatia/AI-Meeting-Intelligence.git  
+cd AI-Meeting-Intelligence  
 
----
+2. Create a virtual environment  
+python -m venv venv  
+venv\Scripts\activate  
 
-## Quick Start Command
+3. Install dependencies  
+pip install -r requirements.txt  
 
-cd d:\python\AI_Meeting_Intelligence
-streamlit run app.py
+4. Create a .env file and add your API key  
+GROQ_API_KEY=your_api_key_here  
 
-Then bookmark COMPONENT_QUICK_REFERENCE.md for fast lookups!
+5. Run the application  
+streamlit run app.py  
 
 ---
 
-Version: 1.0 Modern SaaS Dashboard Theme
-Last Updated: 2026-03-26
-Status: Ready to Deploy
+## 📊 Impact
+- Saves time spent on manual task tracking  
+- Improves team productivity  
+- Ensures no task is missed  
+- Enhances accountability across teams  
 
-Next Step: Read UI_TRANSFORMATION_SUMMARY.md (5 min)
+---
 
-Happy building!
+## 🔮 Future Scope
+- Integration with Slack, Email, and Calendar  
+- Real-time speech-to-text meeting processing  
+- Automated reminders and notifications  
+- Advanced analytics and reporting  
+
+---
+
+## 🎥 Demo
+This project demonstrates how AI can convert meeting conversations into structured and trackable workflows.
+
+---
+
+## 📌 Note
+This project is developed as part of a hackathon to showcase the potential of AI in automating enterprise workflows.
+
+---

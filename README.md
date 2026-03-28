@@ -41,13 +41,13 @@ This system uses AI to transform meeting conversations into structured workflows
 ## 🧠 System Architecture
 
 Meeting Transcript  
-↓  
+        ↓  
 AI Model (LLM via Groq)  
-↓  
+        ↓  
 Task Extraction Engine  
-↓  
+        ↓  
 Task Manager  
-↓  
+        ↓  
 Dashboard & Insights  
 
 ---

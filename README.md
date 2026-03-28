@@ -63,7 +63,7 @@ Dashboard & Insights
 ## 🚀 How to Run Locally
 
 1. Clone the repository
-   ```bash
+  ```bash
   git clone https://github.com/Poorvikabhatia/AI-Meeting-Intelligence.git  
   ```
 
